@@ -2,6 +2,8 @@
 .bloop
 .bsp
 
+/tmp
+
 # metals
 project/metals.sbt
 .metals
@@ -29,3 +31,6 @@ target/
 *.class
 *.log
 
+
+# idea
+.idea
