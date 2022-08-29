@@ -2,7 +2,7 @@ import keystore._
 object Main extends App {
   val dbPath = "StringKeyStoreFile"
   
-  val stringKeyStore =  KeyStore("tmp")
+  val stringKeyStore =  KeyStore("testDir")
   println("Created store with key and value type as String")
 
   println("Adding new key and value")
